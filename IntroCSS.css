@@ -1,0 +1,152 @@
+/* Importing Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    color : rosybrown;
+}
+
+body{
+    padding :0vh;
+    margin: 2vh;
+    background-color: lightgray;
+}
+
+.Form{
+
+
+    width: 100%;
+    height: 29%;
+    /* //Spacing */
+    padding: 20%;
+    /* styling */
+    background-color: rosybrown;
+    border-radius: 3vh;
+
+    /* text styling:  */
+    text-align: center;
+    font-size: 2em;
+}
+
+.Form p{
+    font-family: 'Lobster', cursive;
+    color: darkslategray;
+    font-weight: 900;
+}
+
+.arrangement{
+    padding: 0;
+    margin-left: 22vh;
+    text-align: left;
+}
+.arrangement p{
+    padding-left: 1vh;
+}
+.LinkA{
+    margin: 2vh 17vh;
+    padding: 1.5vh;
+    border-radius: 1.5vh;
+    width: 23vh;
+    font-size: 0.7em;
+
+}
+.LinkA a{
+    text-align: center;
+    background-color: white;
+    border: 4px double darkslategray;
+    border-radius: .7vh;
+    padding:  1vh 3vh;
+    text-decoration: none;
+    color: rosybrown;
+    font-family: 'Righteous', cursive;
+}
+
+#SaveName{
+    width: 10%;
+    font-weight: 900;
+    font-size: 1.2em;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 60%;
+    padding: 1.5vh;
+    margin-top: 3vh;
+    margin-left: 25vh;
+    font-family: 'Righteous', cursive;
+
+}
+
+.Form input{
+    border: 6px double darkslategray;
+    width: 70%;
+    height: 4vh;
+    border-radius: 1.5vh;
+    padding-left: 7vh;
+    font-size: 1em;
+    padding: 1vh 2vh;
+    font-family: 'Chivo Mono', monospace; 
+    color: rosybrown;
+}
+
+.bx-s{
+    box-shadow: 15px 13px 13px 7px rgba(255, 255, 255, 0.619);
+}
+
+
+.bx-s button{
+    box-shadow: 5px 3px 13px 4px rgba(255, 255, 255, 0.463);
+}
+
+
+@media only screen and (max-width: 1410px){
+    .Form{
+        padding: 0;
+        margin-top: 0;
+        margin: .5%;
+        width: 95%;
+        height:95%;
+        /* border: 2px solid red; */
+    }
+    .arrangement{
+        padding-top: 10%;
+        padding-left: 6%;
+    }
+    body{
+        width: 93%;
+        height: 97vh;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .arrangement{
+        font-size: 1rem;
+        margin-left: 7%;
+        /* margin-top: 40%; */
+        padding-top: 40%;
+
+    }
+    .Form{
+        margin-right: 10%;
+        width: 98%;
+        height: 98%;
+    }
+    
+    #SaveName{
+        padding: 0;
+        margin-left: 40%;
+        border-radius:50%;
+        height: 50px;
+        width: 50px;
+    }
+    #strgame{
+        padding: 8px;
+        margin:-15%;
+        box-shadow: 5px 4px 4px 2px rgba(255, 255, 255, 0.463);
+        
+    }
+    .bx-s{
+        box-shadow: 5px 4px 4px 2px rgba(255, 255, 255, 0.463);
+    } 
+    .bx-s button{
+        box-shadow: 5px 4px 4px 2px rgba(255, 255, 255, 0.463);
+    }
+}

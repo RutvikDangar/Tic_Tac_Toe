@@ -1,0 +1,169 @@
+/* Importing Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: rgba(0, 0, 0, 0.46);
+}
+
+.dashbord{
+    font-size: 0.7rem;
+    margin:2vh;
+    padding: 5%;
+    /* border: 2px solid red; */
+    position: absolute;
+    right: 8%;
+    top: 24%;
+    width: 15%;
+    height: 40%;
+    
+    /* Styling */
+    background-color: #F1F1F1;
+    border-radius: 7%;
+    box-shadow: 6px 6px 13px 4px  darkgray;
+
+    /* Text styling */
+    text-align: center;
+    font-size: 1rem ;
+    line-height: 1.5;
+
+}
+
+.dashbord img{
+    width:25%;
+}
+
+#NameOfPlayer{
+    font-size: 1.5em;
+    color: rgb(146, 190, 68);
+}
+#winnerName{
+    margin-top: 10%;
+}
+
+.header{
+    display: block;
+}
+#theam{
+    /* Positioning */
+    position: absolute;
+    top: 3vh;
+    right: 3vh;
+    /* Styling */
+    padding: 1vh;
+    font-size: 14px;
+    border-top: 3px double darkgray;
+    border-bottom: 3px double darkgray;
+    border-right: 3px solid darkgray;
+    border-left: 3px solid darkgray;
+    border-radius: 10px;
+    background-color: #F1F1F1;
+}
+
+#strgame{
+    display: sticky;
+}
+
+#NameOfPlayer{
+    font-family: 'Lobster', cursive;
+    color: darkslategray;
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 1410px) {
+    .dashbord{
+        /* display: none; */
+        /* border :  2px solid red; */
+        
+        border-radius: 3vh;
+        width: 30vh;
+        height: 50vh;
+        font-size: 1.5em;
+        padding: 3vh;
+        line-height: 1.6;
+        margin-top: -6vh;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    #winnerName{
+        margin-top: 6% ;
+    }
+    .dashbord{
+        position: fixed;
+        left: 27%;
+        top : 7%;
+        height: 15%;
+        width: 40% ;
+        font-size: 2.5em;
+        line-height: 1;
+    }
+    body{
+        height: 100%;
+        width: 100%;
+    }
+    .mainBlock{
+    height: 100vh;
+    width: 100%;
+    }
+    .container{
+        margin: 60% 35% 0% 35%; 
+        /* margin-top: 30%; */
+        margin-left: 18%;
+        width: 60%;
+        height : 40%;
+    }
+    .item{
+        font-size: 7rem;
+    }
+
+
+    *{
+        font-size: .7em;
+    }
+}
+
+/* //Mobiles */
+@media screen and (max-width: 768px){
+        
+    .dashbord{
+        font-size: 1.2rem;
+        position: fixed;
+        height: 17%;
+        width: 60%;
+        line-height: normal;
+        top: 19%;
+        left: 17%;
+    }
+    body{
+        height: 100%;
+        width: 100%;
+    }
+    .mainBlock{
+    height: 100vh;
+    width: 100%;
+    }
+    .container{
+        position: fixed;
+        top: 10%;
+        margin-top: 65%;
+        margin-left : 11%;
+        margin-right : 10%;
+        width: 80%;
+        height : 42%;
+
+    }
+    .item{
+        font-size: 7rem;
+    }
+
+}
+
+
