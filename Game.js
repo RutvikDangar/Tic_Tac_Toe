@@ -1,5 +1,5 @@
 //Theam Logic
-let valueTheam = false;
+var valueTheam = true;
 const theamModual = document.body;
 
 let theam1 = "rgba(0, 0, 0, 0.46)"
